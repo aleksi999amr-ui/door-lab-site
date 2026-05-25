@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DOZOR Lab — Сервисный центр видеорегистраторов</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+<nav>
+<div class="logo">DOZOR Lab</div>
+
+<div class="nav-links">
+<a href="#services">Услуги</a>
+<a href="#corporate">Госзаказы</a>
+<a href="#status">Статус</a>
+<a href="#contacts">Контакты</a>
+</div>
+</nav>
+
+<div class="hero-content">
+<div class="hero-badge">Сервисный центр</div>
+
+<h1>Сервисный центр DOZOR Lab</h1>
+
+<p>
+Профессиональный ремонт, диагностика и обслуживание носимых видеорегистраторов DOZOR для государственных структур и корпоративных клиентов.
+</p>
+
+<div class="hero-buttons">
+<button onclick="scrollToForm()">Оставить заявку</button>
+<button class="secondary">Связаться</button>
+</div>
+</div>
+<div class="hero-visual">
+
+<div class="glass-card">
+
+<div class="glass-top">
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+</div>
+
+<h3>DOZOR Analytics</h3>
+
+<div class="stat">
+<p>Devices</p>
+<h4>1,284</h4>
+</div>
+
+<div class="stat">
+<p>Repairs</p>
+<h4>86</h4>
+</div>
+
+<div class="stat">
+<p>Clients</p>
+<h4>42</h4>
+</div>
+
+</div>
+
+</div>
+</header>
+
+<section class="services reveal" id="services">
+<h2>Услуги</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Диагностика</h3>
+<p>Полная проверка и выявление неисправностей.</p>
+</div>
+
+<div class="card">
+<h3>Ремонт плат</h3>
+<p>Компонентный ремонт и восстановление электроники.</p>
+</div>
+
+<div class="card">
+<h3>Прошивка</h3>
+<p>Обновление и восстановление ПО.</p>
+</div>
+
+<div class="card">
+<h3>После влаги</h3>
+<p>Восстановление после попадания жидкости.</p>
+</div>
+
+<div class="card">
+<h3>Док-станции</h3>
+<p>Ремонт и обслуживание аксессуаров.</p>
+</div>
+
+<div class="card">
+<h3>Сервисное обслуживание</h3>
+<p>Плановое техническое сопровождение оборудования.</p>
+</div>
+
+</div>
+</section>
+
+<section class="corporate reveal" id="corporate">
+<div class="corporate-box">
+<h2>Работаем с государственными и корпоративными заказчиками</h2>
+
+<p>
+DOZOR Lab предоставляет сервисное обслуживание и ремонт оборудования
+для организаций, ведомств и корпоративных клиентов.
+</p>
+</div>
+</section>
+
+<section class="workflow reveal">
+<h2>Этапы работы</h2>
+
+<div class="steps">
+
+<div class="step">
+<span>01</span>
+<h3>Приём устройства</h3>
+</div>
+
+<div class="step">
+<span>02</span>
+<h3>Диагностика</h3>
+</div>
+
+<div class="step">
+<span>03</span>
+<h3>Согласование</h3>
+</div>
+
+<div class="step">
+<span>04</span>
+<h3>Ремонт</h3>
+</div>
+
+<div class="step">
+<span>05</span>
+<h3>Выдача</h3>
+</div>
+
+</div>
+</section>
+
+<section class="status reveal" id="status">
+<h2>Проверка статуса ремонта</h2>
+
+<div class="status-box">
+<input type="text" id="repairId" placeholder="Введите номер заявки">
+<button onclick="checkStatus()">Проверить</button>
+<p id="statusResult"></p>
+</div>
+</section>
+
+<section class="faq reveal">
+<h2>FAQ</h2>
+
+<details>
+<summary>Сколько длится ремонт?</summary>
+<p>Средний срок ремонта — от 1 до 5 рабочих дней.</p>
+</details>
+
+<details>
+<summary>Есть ли гарантия?</summary>
+<p>Да, на выполненные работы предоставляется гарантия.</p>
+</details>
+
+<details>
+<summary>Работаете ли вы с юрлицами?</summary>
+<p>Да, работаем с государственными и корпоративными заказчиками.</p>
+</details>
+</section>
+
+<section class="contacts reveal" id="contacts">
+<h2>Контакты</h2>
+
+<div class="contact-box">
+<p>Телефон: +7 (999) 999-99-99</p>
+<p>Telegram: @dozorlab</p>
+<p>Москва</p>
+</div>
+</section>
+
+<section class="form-section reveal" id="form">
+<h2>Оставить заявку</h2>
+
+<form>
+<input type="text" placeholder="Имя">
+<input type="tel" placeholder="Телефон">
+<textarea rows="5" placeholder="Опишите проблему"></textarea>
+<button type="submit">Отправить заявку</button>
+</form>
+</section>
+
+<footer>
+<div class="footer-content">
+<h3>DOZOR Lab</h3>
+<p>Сервисный центр оборудования DOZOR</p>
+<div class="footer-links">
+<a href="#services">Услуги</a>
+<a href="#corporate">Корпоративным</a>
+<a href="#contacts">Контакты</a>
+</div>
+<p class="copyright">© 2026 DOZOR Lab. Все права защищены.</p>
+</div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
