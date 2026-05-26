@@ -334,6 +334,19 @@ grid-template-columns:1fr;
 section{
 padding:70px 5%;
 }
+
+.corporate-box{
+padding: 25px;
+}
+
+.corporate-box h2{
+font-size: 22px;
+}
+
+.corporate-box p{
+font-size: 14px;
+}
+
 }
 .hero-visual{
 display:flex;
@@ -416,4 +429,10 @@ z-index:0;
 .reveal.active {
   opacity: 1;
   transform: translateY(0);
+}
+
+.corporate-box h2,
+.corporate-box p {
+word-break: break-word;
+overflow-wrap: break-word;
 }
